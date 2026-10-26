@@ -1,10 +1,10 @@
 # Source-build formula, also used as template by the release workflow
-# (0.2.1 and 15d4fc5fab481edaa875993b740d91612e31d2c90cbc0dd6b0d16e042514875b get filled in automatically on every tag).
+# (0.2.2 and 50c6e2dfb39c6877996f1668e5dd82a34b43f90bb9bb7a3c0087d9cebb6baa1c get filled in automatically on every tag).
 class Superpomodoro < Formula
   desc "Pretty Pomodoro timer for your terminal"
   homepage "https://github.com/paymansuper/terminal-superpomodoro"
-  url "https://github.com/paymansuper/terminal-superpomodoro/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "15d4fc5fab481edaa875993b740d91612e31d2c90cbc0dd6b0d16e042514875b"
+  url "https://github.com/paymansuper/terminal-superpomodoro/archive/refs/tags/v0.2.2.tar.gz"
+  sha256 "50c6e2dfb39c6877996f1668e5dd82a34b43f90bb9bb7a3c0087d9cebb6baa1c"
   license "MIT"
   head "https://github.com/paymansuper/terminal-superpomodoro.git", branch: "main"
 
